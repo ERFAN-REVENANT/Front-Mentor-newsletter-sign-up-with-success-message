@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="card">
+    <div class="info">
+      <h1>Stay updated!</h1>
+      <p1>Join 60.000+ product managers receiving monthty
+        updates on:</p1>
+        <div><img src="./assets/images/icon-list.svg"><p>Product discovery ard building what matters</p></div>
+       <div><img src="./assets/images/icon-list.svg"> <p>Measunng to ensure updates are a success</p></div>
+        <div><img src="./assets/images/icon-list.svg"><p>And much more!</p></div>
+
+        <div class="error"><label for="email">Email addess</label><p class="errormsg">Valid email required</p></div>
+        <input type="email" placeholder="email@company.com" name="email" class="email">
+        <button class="subscribe">Subscribe to monthly newsletter</button>
+    </div>
+    <div class="pic">
+      <img src="./assets/images/illustration-sign-up-desktop.svg">
+    </div>
+  </div>
+  <div class="success">
+    <img src="./assets/images/icon-success.svg">
+    <h1>Thanks for
+      subscribing!</h1>
+      <p>A confirmation email has been sent to
+        <span id="display-email"></span> Please open it and click
+        the button inside to confirm your subscription.</p>
+        <button class="dismiss">Dismiss message</button>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
